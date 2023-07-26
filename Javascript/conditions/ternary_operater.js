@@ -1,3 +1,5 @@
+//ternary operator
+
 const prompt = require("prompt-sync")({sigint:true});
 let age = Number(prompt("what is ypur age:"));
 
