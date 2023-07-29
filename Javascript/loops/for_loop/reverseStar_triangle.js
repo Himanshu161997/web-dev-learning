@@ -1,4 +1,4 @@
-let size = 5;
+ let size = 5;
 let output = "";
 for (let rowIndex = size; rowIndex > 0; rowIndex--) {
   for (let j = 1; j <= rowIndex; j++) {
@@ -7,3 +7,4 @@ for (let rowIndex = size; rowIndex > 0; rowIndex--) {
   console.log(output);
   output = "";
 }
+
