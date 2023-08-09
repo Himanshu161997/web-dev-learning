@@ -3,6 +3,6 @@ function honey(){
     
 }
 honey();
-console.log(1);
+//console.log(1);
 honey();
 honey();
