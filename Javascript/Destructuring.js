@@ -7,3 +7,4 @@ console.log(d);
 // let b = 4;
 // [a,b] = [b,a]
 // console.log(a,b)
+//console
