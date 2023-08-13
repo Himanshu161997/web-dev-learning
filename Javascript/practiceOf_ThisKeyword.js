@@ -7,3 +7,4 @@ let user = {
     }
 }
 user.new();
+
