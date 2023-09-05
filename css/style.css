@@ -12,3 +12,16 @@ nav{
     display: inline-block;
     padding: 20px;
  }
+
+ body{
+    background-color: aquamarine;
+ }
+ h1{
+    color: red;
+ }
+ #first{
+    color:tomato;
+ }
+ .c{
+    color: azure;
+ }
