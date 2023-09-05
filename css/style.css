@@ -1,0 +1,14 @@
+nav{
+    background-color: yellowgreen;
+    color: rgb(3, 48, 48);
+    text-align: center;
+    text-decoration: none;
+
+
+  padding: 10px;
+    text-shadow: 200px;
+ }
+ nav li{
+    display: inline-block;
+    padding: 20px;
+ }
