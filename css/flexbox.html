@@ -8,9 +8,10 @@
         .container{
             display: flex;
     flex-wrap: wrap;
-    justify-content:space-around;
-    /* align-items: center; */
-    align-content: center;
+    justify-content:center;
+    align-items: center;
+    
+    /* align-content: center; */
   
             background-color: black;
             height: 50vh;
@@ -20,6 +21,8 @@
             height: 10vh;
             width: 300px;
             border: rgb(211, 34, 34) solid 2px;
+            order: 4;
+                
         }
         .box2{
             background-color: darkcyan;
@@ -38,6 +41,7 @@
             height: 10vh;
             width: 300px;
             border: rgb(205, 33, 33) solid 2px;
+            flex-shrink: 4;
         }
     </style>
 </head>
