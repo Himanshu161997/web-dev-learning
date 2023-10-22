@@ -1,29 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         .container{
-            display: grid;
-            background-color: aqua;
-           grid-gap: 4px 5px;
-            grid-template-columns: auto auto;
+            background-color: cadetblue;
+            width: 100vw;
+            height: 100vh;
         }
-        .one{
-            background-color:coral;
-            border: 2px solid red;
-        }
+      header {
+        background-color: rgb(0, 0, 0);
+        height: 10vh;
+      }
+      ul {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+       justify-content: space-evenly;
+       height: 10vh;
+       align-items: center;
+      }
+      ul li{
+        list-style-type:none;
+   
+      }
+      a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+     
     </style>
-</head>
+  </head>
 
-<body>
-    <div class="container">
-<div class="one">one</div>
-<div class="one">two</div>
-<div class="one">three</div>
-
+  <body>
+   <div class="container">
+    <header>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contacts</a></li>
+        <li><a href="#">gallery</a></li>
+      </ul>
+    </header>
     </div>
-</body>
+  </body>
 </html>
